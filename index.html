@@ -4,73 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--My CSS File-->
     <link rel="stylesheet" href="/src/styles.css" />
+
     <title>Fitness Project</title>
   </head>
   <body>
-    <div class="container">
-      <h1>
-        DO YOU
-        <span class="love"> LOVE </span>
-        GETING STRONG?
-      </h1>
+    <h1 class="mt-5">
+      DO YOU
+      <span class="love"> LOVE </span>
+      GETING STRONG?
+    </h1>
+    <hr />
+    <h2>
+      Tap into motivation and feel energized class after class! Get a taste for
+      workouts that fit your mood, goals, music style, experience level, and
+      schedule on the
+      <strong>Peloton Bike, Bike+, Tread, Guide and the Peloton App.</strong>
+      <br />
+      <a href="https://www.peloton.com/" target="_blank" class="learn-more"
+        >Learn more here</a
+      >
       <hr />
-      <h2>
-        Tap into motivation and feel energized class after class! Get a taste
-        for workouts that fit your mood, goals, music style, experience level,
-        and schedule on the
-        <strong>Peloton Bike, Bike+, Tread, Guide and the Peloton App.</strong>
-        <br />
-        <a href="https://www.peloton.com/" target="_blank" class="learn-more"
-          >Learn more here</a
-        >
-        <hr />
-      </h2>
-      <h3>Shop All Peloton Equipment Below</h3>
-      <h4>
-        <img src="/images/bike.png" alt="Peloton Bike" />
-        <button>
-          👉🏻 Purchase
-          <br />
-          Bike
-        </button>
-        <br />
-        <br />
-        <img src="/images/bike_2.png" alt="Peloton Bike+" />
-        <button>
-          👉🏻 Purchase
-          <br />
-          Bike+
-        </button>
-        <br />
-        <br />
-        <img src="/images/tread.png" alt="Peloton Tread" />
-        <button>
-          👉🏻 Purchase
-          <br />
-          Tread
-        </button>
-        <br />
-        <br />
-        <img src="/images/guide.png" alt="Peloton Guide+" />
-        <button>
-          👉🏻 Purchase
-          <br />
-          Peloton Guide
-        </button>
-      </h4>
-      <br />
-      <br />
-      <p class="footer">
-        *** You must live in the USA, Germany, or Australia to purchase. ***
-        <br />
-        This page was built by
-        <a
-          href="https://sites.google.com/view/www-kathuber-dev/home"
-          target="_blank"
-          >Kathryn Huber</a
-        >
-      </p>
+    </h2>
+    <h3 class="text-center mb-3">Shop All Peloton Equipment Below</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="/images/bike.png"
+            alt="Peloton Bike"
+            class="img-fluid rounded shadow peloton-bike"
+          />
+          <button class="shadow">👉🏻 Purchase Bike</button>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="/images/bike_2.png"
+            alt="Peloton Bike+"
+            class="img-fluid rounded shadow peloton-bike-2"
+          />
+          <button class="shadow">👉🏻 Purchase Bike+</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="/images/tread.png"
+            alt="Peloton Tread"
+            class="img-fluid rounded shadow peloton-tread"
+          />
+          <button class="shadow">👉🏻 Purchase Tread</button>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="/images/guide.png"
+            alt="Peloton Guide"
+            class="img-fluid rounded shadow peloton-guide"
+          />
+          <button class="shadow">👉🏻 Purchase Guide</button>
+        </div>
+      </div>
     </div>
+    <p class="footer mt-4">
+      *** You must live in the USA, Germany, or Australia to purchase. ***
+      <br />
+      This page was built by
+      <a
+        href="https://sites.google.com/view/www-kathuber-dev/home"
+        target="_blank"
+        >Kathryn Huber</a
+      >
+    </p>
   </body>
 </html>
